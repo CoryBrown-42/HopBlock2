@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -278,7 +279,6 @@ GameObject:
   m_Component:
   - component: {fileID: 273451677}
   - component: {fileID: 273451676}
-  - component: {fileID: 273451678}
   m_Layer: 0
   m_Name: Star
   m_TagString: Untagged
@@ -343,23 +343,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &273451678
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 273451675}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8c9fde995f7592a4da68f91f4fb71c7e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &321639781
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +790,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 212279210669398450, guid: 515fe2d42acf21d47acf106d21f8059e,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.5588235
+      objectReference: {fileID: 0}
+    - target: {fileID: 212279210669398450, guid: 515fe2d42acf21d47acf106d21f8059e,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.5588235
+      objectReference: {fileID: 0}
+    - target: {fileID: 212279210669398450, guid: 515fe2d42acf21d47acf106d21f8059e,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.5588235
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 515fe2d42acf21d47acf106d21f8059e, type: 2}
   m_IsPrefabParent: 0
@@ -1216,11 +1214,6 @@ Prefab:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
-    - target: {fileID: 50963763578790424, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9, type: 2}
   m_IsPrefabParent: 0
@@ -1266,6 +1259,21 @@ Prefab:
     - target: {fileID: 1294389984135948, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9, type: 2}
       propertyPath: m_Name
       value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 212843021899257990, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.7794118
+      objectReference: {fileID: 0}
+    - target: {fileID: 212843021899257990, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.83569974
+      objectReference: {fileID: 0}
+    - target: {fileID: 212843021899257990, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d369d41fd8ffda4fa3a8e68f20c26f9, type: 2}

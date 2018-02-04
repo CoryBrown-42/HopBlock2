@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HopBlock2/Scenes/HopBlock_MainMenu.unity
+    guid: 411c2c64a494ff04195d34af9943c053
+  - enabled: 1
+    path: Assets/HopBlock2/Scenes/Level1.unity
+    guid: 59a0486b6456f9a4193d73bb01d2794e
+  - enabled: 1
+    path: Assets/HopBlock2/Scenes/Ad-Retry.unity
+    guid: ea62b869420fd2645883dd1144621a48
+  - enabled: 1
+    path: Assets/HopBlock2/Scenes/Level1-hardMode.unity
+    guid: 90e69a617da7cec40a68397c4a07339e
