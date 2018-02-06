@@ -156,6 +156,44 @@ MonoBehaviour:
   HUD: {fileID: 852141697}
   PauseMenu: {fileID: 2097982137}
   Player: {fileID: 518951848}
+--- !u!1 &53007924 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1228355485317556, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+    type: 2}
+  m_PrefabInternal: {fileID: 827185622}
+--- !u!114 &53007927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 53007924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
+--- !u!1 &72487293 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1784543081107024, guid: 54868551b76a52d4ca33e39ab28ad21d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1673629061}
+--- !u!114 &72487295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 72487293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &113970916
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +719,54 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 722564987}
-    m_RemovedComponents: []
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.88350004
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 92.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.40375003
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 99.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.59749997
+      objectReference: {fileID: 0}
+    - target: {fileID: 224276556949636120, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.679375
+      objectReference: {fileID: 0}
+    - target: {fileID: 114300265677710402, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114183920558153580, guid: cd7cbf39b22f1fc47bb9060e64757ade, type: 2}
+    - {fileID: 114392490011564010, guid: cd7cbf39b22f1fc47bb9060e64757ade, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cd7cbf39b22f1fc47bb9060e64757ade, type: 2}
   m_IsPrefabParent: 0
 --- !u!223 &852141697 stripped
@@ -1168,9 +1253,29 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 722564987}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114220220463998136, guid: 54868551b76a52d4ca33e39ab28ad21d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 54868551b76a52d4ca33e39ab28ad21d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1792589956 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1244173507428710, guid: cd7cbf39b22f1fc47bb9060e64757ade,
+    type: 2}
+  m_PrefabInternal: {fileID: 827185622}
+--- !u!114 &1792589959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1792589956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &1855611961
 Prefab:
   m_ObjectHideFlags: 0
